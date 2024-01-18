@@ -19,7 +19,7 @@ const getData = () => {
 };
 
 QUnit.module('DOM', (hooks) => {
-	hooks.beforeEach(async (assert) => {
+	hooks.beforeEach(async () => {
 		try {
 			const document = await getData();
 			global.document = document;
