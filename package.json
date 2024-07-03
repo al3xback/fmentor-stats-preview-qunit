@@ -1,8 +1,7 @@
 {
 	"name": "fmentor-stats-preview-qunit",
+	"private": true,
 	"version": "1.0.0",
-	"description": "stats preview card component using qunit",
-	"main": "index.js",
 	"type": "module",
 	"scripts": {
 		"sass-dev": "sass --watch scss/main.scss css/main.css",
@@ -14,16 +13,6 @@
 		"test": "qunit",
 		"build": "run-s lint sass-prod postcss"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/al3xback/fmentor-stats-preview-qunit.git"
-	},
-	"author": "alex <al3xback@gmail.com>",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/al3xback/fmentor-stats-preview-qunit/issues"
-	},
-	"homepage": "https://github.com/al3xback/fmentor-stats-preview-qunit#readme",
 	"devDependencies": {
 		"autoprefixer": "^10.4.16",
 		"axios": "^1.6.5",
